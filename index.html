@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aayush Sharma - CLI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/figlet/1.2.1/figlet.min.js"></script>
+</head>
+<body>
+
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <p>Initializing portfolio...</p>
+        <p>Loading system files...</p>
+        <p>Starting terminal...</p>
+    </div>
+
+    <!-- Terminal -->
+    <div id="terminal" style="display: none;">
+        
+        <!-- ASCII Name -->
+        <div id="ascii-name"></div>
+
+        <!-- Bio -->
+        <div id="bio">
+            <p><strong>Aspiring Data Scientist</strong></p>
+            <p>aayush.design19@gmail.com</p>
+        </div>
+
+        <!-- Commands (Now in one line) -->
+        <div id="commands-list">
+            <p><strong>Commands:</strong> aboutme | work experience | projects | education | skills | contact | clear | help</p>
+        </div>
+
+        <!-- Command Line -->
+        <div id="command-line">
+            <div id="input-line">
+                <span id="prompt">user@aayush$</span>
+                <input type="text" id="command-input" autofocus>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
